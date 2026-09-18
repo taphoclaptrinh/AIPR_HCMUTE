@@ -1,0 +1,20 @@
+[
+    {
+      "review_id": "R001",
+      "product": "Laptop",
+      "rating": 5,
+      "text": "Excellent performance"
+    },
+    {
+      "review_id": "R005",
+      "product": "Monitor",
+      "rating": 5,
+      "text": "Crystal clear display"
+    },
+    {
+      "review_id": "R001",
+      "product": "Laptop",
+      "rating": 5,
+      "text": "Excellent performance"
+    }
+  ]

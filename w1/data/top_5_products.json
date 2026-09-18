@@ -1,0 +1,22 @@
+[
+  {
+    "product": "Monitor",
+    "rating": 4.25
+  },
+  {
+    "product": "Keyboard",
+    "rating": 4.0
+  },
+  {
+    "product": "Headphones",
+    "rating": 4.0
+  },
+  {
+    "product": "Laptop",
+    "rating": 3.8333333333333335
+  },
+  {
+    "product": "Mouse",
+    "rating": 3.5
+  }
+]

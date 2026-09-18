@@ -1,0 +1,19 @@
+from dataclasses import dataclass, field
+@dataclass
+class Shared:
+    tags: list = field(default_factory = list)
+    def add(self, tag):
+        self.tags.append(tag)
+
+a,b = Shared(), Shared()
+a.add("urgent")
+print(b.tags)
+
+class Shared2:
+    tags: list = []
+    def add(self, tag):
+        self.tags.append(tag)
+
+a,b = Shared2(),Shared2()
+a.add("urgent")
+print(b.tags)

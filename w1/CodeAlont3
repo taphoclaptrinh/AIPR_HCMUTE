@@ -1,0 +1,38 @@
+from dataclasses import dataclass, field, asdict
+import json
+from datetime import datetime
+
+class CustomEncoder(json.JSONEncoder):
+    def default(self, obj):
+        if isinstance(obj, datetime):
+            return obj.isoformat()
+        if isinstance(obj, set):
+            return list(obj)
+        return super().default(obj)
+
+@dataclass
+class EmbeddingResult:
+    vector: list[float]
+    model: str = "text-embedding-3-small"
+    token_count: int = 0                    
+    created_at: datetime = field(default_factory=datetime.now)
+    text: str = ""
+
+result1 = EmbeddingResult(
+    vector=[0.023, -0.045, 0.112, 0.067],
+    model="text-embedding-3-small",
+    token_count=10,
+    text="What is RAG?"
+)
+
+result2 = EmbeddingResult(
+    vector=[0.089, 0.001, -0.032, 0.055],
+    model="text-embedding-3-small",
+    token_count=8,
+    text="Python programming"
+)
+result = [asdict(result1), asdict(result2)]
+json_str = json.dumps(result, cls=CustomEncoder,indent=2)
+print(json_str)
+with open("w1\\data\\Embedding.json","w") as f:
+    json.dump(result, f, cls=CustomEncoder,indent=2)

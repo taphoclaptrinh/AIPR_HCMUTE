@@ -1,0 +1,1 @@
+{"timestamp": "2026-08-27T07:46:41.408366+00:00", "model": "openai/gpt-oss-20b", "error": "Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}", "success": false, "attempt": 1}

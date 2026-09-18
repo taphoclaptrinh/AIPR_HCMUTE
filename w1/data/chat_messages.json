@@ -1,0 +1,10 @@
+[
+  {"role": "system", "content": "You are a helpful assistant.", "timestamp": "2026-08-04T09:00:00"},
+  {"role": "user", "content": "What is Python?", "timestamp": "2026-08-04T09:00:05"},
+  {"role": "assistant", "content": "Python is a high-level, interpreted programming language known for its readability.", "timestamp": "2026-08-04T09:00:07"},
+  {"role": "user", "content": "What is RAG?", "timestamp": "2026-08-04T09:01:00"},
+  {"role": "assistant", "content": "RAG stands for Retrieval-Augmented Generation. It combines retrieval from a knowledge base with text generation.", "timestamp": "2026-08-04T09:01:03"},
+  {"role": "user", "content": "Give me an example", "timestamp": "2026-08-04T09:01:30"},
+  {"role": "assistant", "content": "A user asks about a company policy. The system retrieves relevant policy documents, then generates an answer based on them.", "timestamp": "2026-08-04T09:01:35"},
+  {"role": "user", "content": "Thanks!", "timestamp": "2026-08-04T09:02:00"}
+]

@@ -1,0 +1,8 @@
+[
+  {"chunk_id": "C001", "doc_id": "DOC001", "content": "Python is a high-level programming language.", "chunk_index": 0, "embedding": null},
+  {"chunk_id": "C002", "doc_id": "DOC001", "content": "It was created by Guido van Rossum in 1991.", "chunk_index": 1, "embedding": null},
+  {"chunk_id": "C003", "doc_id": "DOC002", "content": "Lists are mutable sequences in Python.", "chunk_index": 0, "embedding": [0.023, -0.045, 0.112]},
+  {"chunk_id": "C004", "doc_id": "DOC002", "content": "Tuples are immutable sequences.", "chunk_index": 1, "embedding": [0.067, 0.001, -0.089]},
+  {"chunk_id": "C005", "doc_id": "DOC003", "content": "RAG combines retrieval and generation.", "chunk_index": 0, "embedding": null},
+  {"chunk_id": "C006", "doc_id": "DOC003", "content": "The retriever finds relevant documents.", "chunk_index": 1, "embedding": null}
+]

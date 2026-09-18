@@ -1,0 +1,10 @@
+corpus = [
+    "The Eiffel Tower is located in Paris, France.",
+    "Python is a popular programming language for data science.",
+    "BM25 is a ranking function used in information retrieval.",
+    "RAG combines retrieval with language model generation.",
+    "The Great Wall of China is a historic fortification.",
+    "Vector databases store embeddings for similarity search.",
+    "Cross-encoders rerank documents by scoring query-doc pairs jointly.",
+    "Paris is the capital of France and a major European city.",
+]

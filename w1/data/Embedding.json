@@ -1,0 +1,26 @@
+[
+  {
+    "vector": [
+      0.023,
+      -0.045,
+      0.112,
+      0.067
+    ],
+    "model": "text-embedding-3-small",
+    "token_count": 10,
+    "created_at": "2026-08-20T14:36:26.244787",
+    "text": "What is RAG?"
+  },
+  {
+    "vector": [
+      0.089,
+      0.001,
+      -0.032,
+      0.055
+    ],
+    "model": "text-embedding-3-small",
+    "token_count": 8,
+    "created_at": "2026-08-20T14:36:26.244814",
+    "text": "Python programming"
+  }
+]
